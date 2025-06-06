@@ -87,4 +87,4 @@ jobs:
 
       - name: Upload to private PyPI (pypiserver)
         run: |
-          twine upload dist/* --verbose --repository-url http://laserlab-mini-s.tetra-city.ts.net:8080/ -u githubactions -p=${{ secrets.PYPI_PASSWORD }}
+          twine upload dist/* --verbose --repository-url http://laserlab-mini-s.betta-halibut.ts.net:8080/ -u githubactions -p=${{ secrets.PYPI_PASSWORD }}
